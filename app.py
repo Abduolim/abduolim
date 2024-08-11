@@ -146,9 +146,9 @@ def app2():
             plt.xlim([real_min, real_max])
             plt.ylim([imag_min, imag_max])
 
-            plt.scatter(np.real(polygon_points), np.imag(polygon_points), label="Original Points", marker='o',
+            plt.scatter(np.real(polygon_points), np.imag(polygon_points), label="Original Point", marker='o',
                         color='b')
-            plt.scatter(np.real(reflected_points), np.imag(reflected_points), label="Final Points",
+            plt.scatter(np.real(reflected_points), np.imag(reflected_points), label="Final Point",
                         marker='x', color='r')
 
             polygon_points.append(polygon_points[0])
